@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Ridezz</string>
+
+    <string name="gender_prompt">Select Gender</string>
+
+    <string name="first_name_error">Enter First Name</string>
+    <string name="last_name_error">Enter Last Name</string>
+    <string name="email_error">Enter Email</string>
+    <string name="pwd_error">Enter Password</string>
+    <string name="phone_error">Enter Phone Number</string>
+    <string name="pwd_length_error">Enter Password of More then 8 Characters</string>
+    <string name="email_invalid_error">Enter Vaild Email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="something_wrong">Sorry, Something Went Wrong, Try Again Later</string>
+    <string name="account_created">Account Created Successfully, Please Verify Your Email</string>
+    <string name="pwd_doent_match">Password does not match</string>
+    <string name="pwd_change_empty_filed">Please enter all values</string>
+    <string name="title_activity_offer_ride_map">Map</string>
+    <string name="title_activity_search_ride_map">Map</string>
+</resources>

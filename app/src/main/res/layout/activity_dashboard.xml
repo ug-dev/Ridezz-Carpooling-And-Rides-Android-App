@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_nav_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#000"
+        android:theme="@style/frag_text"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu" />
+
+    <!--    <fragment-->
+<!--        android:id="@+id/frag"-->
+<!--        android:name="com.example.ridezz.your_ridezz"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50sp"-->
+<!--        android:background="@color/colorPrimary"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ridezz_menu"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:onClick="changeFragment"-->
+<!--            android:layout_marginTop="7sp"-->
+<!--            android:layout_marginBottom="7sp"-->
+<!--            android:src="@drawable/place"-->
+<!--            tools:layout_editor_absoluteX="73dp"-->
+<!--            tools:layout_editor_absoluteY="516dp" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/search_menu"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:onClick="changeFragment"-->
+<!--            android:src="@drawable/search"-->
+<!--            android:layout_marginTop="7sp"-->
+<!--            android:layout_marginBottom="7sp"-->
+<!--            tools:layout_editor_absoluteX="73dp"-->
+<!--            tools:layout_editor_absoluteY="516dp" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/offer_ride_menu"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:onClick="changeFragment"-->
+<!--            android:src="@drawable/plus"-->
+<!--            android:layout_marginTop="7sp"-->
+<!--            android:layout_marginBottom="7sp"-->
+<!--            tools:layout_editor_absoluteX="73dp"-->
+<!--            tools:layout_editor_absoluteY="516dp" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/inbox_menu"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:onClick="changeFragment"-->
+<!--            android:layout_marginTop="7sp"-->
+<!--            android:layout_marginBottom="7sp"-->
+<!--            android:src="@drawable/question"-->
+<!--            tools:layout_editor_absoluteX="73dp"-->
+<!--            tools:layout_editor_absoluteY="516dp" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/profile_menu"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:onClick="changeFragment"-->
+<!--            android:layout_marginTop="7sp"-->
+<!--            android:layout_marginBottom="7sp"-->
+<!--            android:src="@drawable/account"-->
+<!--            tools:layout_editor_absoluteX="73dp"-->
+<!--            tools:layout_editor_absoluteY="516dp" />-->
+<!--    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
